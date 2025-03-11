@@ -65,7 +65,7 @@ This will help you in installing all the libraries required for the project.
 
 ## Process
 
-* Execute `handhist_set.py` to to generate a hand histogram for gesture creation. 
+* Execute `handhist_set.py` to generate a hand histogram for gesture creation. 
 * After obtaining a well-calibrated histogram, store it in the code directory, or alternatively, use the pre-generated histogram available. [here](https://github.com/vishalvarmavuddaraju/Realtime-SignLanguage-Interpretation/tree/main/code).
 * Capture and label gestures using OpenCV with a webcam feed by running ` gesture_creation.py`, which saves them in a database. Alternatively, pre-existing gestures can be used. [here](https://github.com/vishalvarmavuddaraju/Realtime-SignLanguage-Interpretation/tree/main/code).
 * Enhance the captured gestures by applying variations, such as flipping images, using `images_augmentation.py`.
