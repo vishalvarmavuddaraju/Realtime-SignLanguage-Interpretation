@@ -11,6 +11,8 @@ This project focuses on real-time sign language interpretation using a Convoluti
 * [Setup](#Setup)
 * [Process](#Process)
 * [Status](#Status)
+* [Reference](#Reference)
+* [Group](#Group)
 
 ## Overview
 
@@ -80,4 +82,14 @@ This will help you in installing all the libraries required for the project.
 
 * Completed the Model training with more than 95% test accuracy
 * Working to expand the model by add more gestures
-* working on model so that it can interpret under any light conditions 
+* working on model so that it can interpret under any light conditions
+
+## Reference
+
+https://youtu.be/NBzqY9tJd7M?feature=shared
+We have taken this model as reference and used chatgpt and deepseek for development of model
+
+## Group
+Vishal Varma Vuddaraju UID: U39828798
+Rasmitha Chinthalapally UID: U57992748
+Srinija Reddy Maddula UID: U20959745
