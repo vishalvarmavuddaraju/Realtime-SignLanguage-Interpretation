@@ -31,13 +31,13 @@ Features that can be added:
 ## Project Structure
 
 ```
-├── set_hand_histogram.py    # For setting up hand histogram.
-├── create_gestures.py       # For creating and generating gesture data.
-├── Display_gestures.py      # For visualizing all the generated sign gestures.
-├── Rotate_images.py         # For image augmentation by performing rotations.
-├── load_images.py           # For loading and preprocessing the images in the dataset
-├── cnn_model_train.py       # logic that required for model training.
-├── final.py                 # Main script used for real-time recognition
+├── handhist_set.py    # For setting up hand histogram.
+├── gesture_creation.py       # For creating and generating gesture data.
+├── all_gestures_display.py      # For visualizing all the generated sign gestures.
+├── images_augmentation.py         # For image augmentation by performing rotations.
+├── preprocess_images.py           # For loading and preprocessing the images in the dataset
+├── CNN_training.py       # logic that required for model training.
+├── main.py                 # Main script used for real-time recognition
 ├── Install_Packages.txt     # File that contains all required packages for the application
 ├── README.md                # Project documentation
 ```
@@ -64,14 +64,14 @@ This will help you in installing all the libraries required for the project.
 
 ## Process
 
-* Run `set_hand_histogram.py` to set the hand histogram for creating gestures. 
-* Once you get a good histogram, save it in the code folder, or you can use the histogram created by us that can be found [here](https://github.com/harshbg/Sign-Language-Interpreter-using-Deep-Learning/blob/master/Code/hist).
-* Added gestures and label them using OpenCV which uses webcam feed. by running `create_gestures.py` and stores them in a database. Alternately, you can use the gestures created by us [here]().
-* Add different variations to the captured gestures by flipping all the images by using `Rotate_images.py`.
-* Run `load_images.py` to split all the captured gestures into training, validation and test set. 
-* To view all the gestures, run `display_gestures.py` .
-* Train the model using Keras by running `cnn_model_train.py`.
-* Run `final.py`. This will open up the gesture recognition window which will use your webcam to interpret the trained American Sign Language gestures.  
+* Run `handhist_set.py` to set the hand histogram for creating gestures. 
+* Once you get a good histogram, save it in the code folder, or you can use the histogram created by us that can be found [here](https://github.com/vishalvarmavuddaraju/Realtime-SignLanguage-Interpretation/tree/main/code).
+* Added gestures and label them using OpenCV which uses webcam feed. by running ` gesture_creation.py` and stores them in a database. Alternately, you can use the gestures created by us [here](https://github.com/vishalvarmavuddaraju/Realtime-SignLanguage-Interpretation/tree/main/code).
+* Add different variations to the captured gestures by flipping all the images by using `images_augmentation.py`.
+* Run `preprocess_images.py` to split all the captured gestures into training, validation and test set. 
+* To view all the gestures, run `all_gestures_display.py` .
+* Train the model using Keras by running `CNN_training.py`.
+* Run `main.py`. This will open up the gesture recognition window which will use your webcam to interpret the trained American Sign Language gestures.  
 * This model currently only detects the numbers from 0-9 and letters A-C
 * Press `s` to save hand histogram
 * Press `c` to start capturing gestures
