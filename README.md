@@ -11,6 +11,7 @@ This project focuses on real-time sign language interpretation using a Convoluti
 * [Setup](#Setup)
 * [Process](#Process)
 * [Status](#Status)
+* [Demo](#Demo)
 * [Reference](#Reference)
 * [Group](#Group)
 
@@ -83,6 +84,9 @@ This will help you in installing all the libraries required for the project.
 * Completed the Model training with more than 95% test accuracy
 * Working to expand the model by add more gestures
 * working on model so that it can interpret under any light conditions
+
+## Demo
+![Example screenshot](./final_model.gif)
 
 ## Reference
 
