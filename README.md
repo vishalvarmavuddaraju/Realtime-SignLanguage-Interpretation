@@ -65,14 +65,14 @@ This will help you in installing all the libraries required for the project.
 
 ## Process
 
-* Run `handhist_set.py` to set the hand histogram for creating gestures. 
-* Once you get a good histogram, save it in the code folder, or you can use the histogram created by us that can be found [here](https://github.com/vishalvarmavuddaraju/Realtime-SignLanguage-Interpretation/tree/main/code).
-* Added gestures and label them using OpenCV which uses webcam feed. by running ` gesture_creation.py` and stores them in a database. Alternately, you can use the gestures created by us [here](https://github.com/vishalvarmavuddaraju/Realtime-SignLanguage-Interpretation/tree/main/code).
-* Add different variations to the captured gestures by flipping all the images by using `images_augmentation.py`.
-* Run `preprocess_images.py` to split all the captured gestures into training, validation and test set. 
-* To view all the gestures, run `all_gestures_display.py` .
-* Train the model using Keras by running `CNN_training.py`.
-* Run `main.py`. This will open up the gesture recognition window which will use your webcam to interpret the trained American Sign Language gestures.  
+* Execute `handhist_set.py` to to generate a hand histogram for gesture creation. 
+* After obtaining a well-calibrated histogram, store it in the code directory, or alternatively, use the pre-generated histogram available. [here](https://github.com/vishalvarmavuddaraju/Realtime-SignLanguage-Interpretation/tree/main/code).
+* Capture and label gestures using OpenCV with a webcam feed by running ` gesture_creation.py`, which saves them in a database. Alternatively, pre-existing gestures can be used. [here](https://github.com/vishalvarmavuddaraju/Realtime-SignLanguage-Interpretation/tree/main/code).
+* Enhance the captured gestures by applying variations, such as flipping images, using `images_augmentation.py`.
+* Run `preprocess_images.py` to organize the captured gesture data into separate training, validation, and test sets. 
+* Execute `all_gestures_display.py` to visualize all recorded gestures.
+* Run `CNN_training.py` to train the model using Keras.
+* Execute `main.py` to launch the gesture recognition window, enabling the webcam to interpret trained American Sign Language gestures.  
 * This model currently only detects the numbers from 0-9 and letters A-C
 * Press `s` to save hand histogram
 * Press `c` to start capturing gestures
