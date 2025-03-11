@@ -10,7 +10,6 @@ This project focuses on real-time sign language interpretation using a Convoluti
 * [Technologies and Tools](#Technologies-and-Tools)
 * [Setup](#Setup)
 * [Process](#Process)
-* [Configuration](#Configuration)
 * [Status](#Status)
 
 ## Overview
