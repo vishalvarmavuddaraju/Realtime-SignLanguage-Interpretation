@@ -86,10 +86,9 @@ This will help you in installing all the libraries required for the project.
 
 ## Reference
 
-https://youtu.be/NBzqY9tJd7M?feature=shared
-We have taken this model as reference and used chatgpt and deepseek for development of model
+We have taken this model [here](https://youtu.be/NBzqY9tJd7M?feature=shared) as reference and used chatgpt and deepseek for development of model
 
 ## Group
-Vishal Varma Vuddaraju UID: U39828798
-Rasmitha Chinthalapally UID: U57992748
-Srinija Reddy Maddula UID: U20959745
+1) Vishal Varma Vuddaraju UID: U39828798
+2) Rasmitha Chinthalapally UID: U57992748
+3) Srinija Reddy Maddula UID: U20959745
