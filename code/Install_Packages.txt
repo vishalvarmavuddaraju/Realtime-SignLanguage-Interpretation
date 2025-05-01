@@ -6,3 +6,6 @@ tensorflow-gpu
 keras
 opencv-python
 pyttsx3
+SQLite
+matplotlib
+seaborn
