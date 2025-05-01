@@ -128,9 +128,7 @@ All results were visualized using static plots and can also be rendered interact
 
 Outputs under different lightning conditions with different backgrounds
 
-![Demo Screenshot](outputs/Screenshot%202025-04-27%20233929.png)
-![Demo Screenshot](outputs/Screenshot%202025-04-27%20234038.png)
-![Demo Screenshot](outputs/Screenshot%202025-04-27%20234205.png)
+![Demo Screenshot](outputs/Screenshot%202025-04-27%20233929.png)  ![Demo Screenshot](outputs/Screenshot%202025-04-27%20234038.png)  ![Demo Screenshot](outputs/Screenshot%202025-04-27%20234205.png)
 
 
 
