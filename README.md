@@ -124,7 +124,11 @@ All results were visualized using static plots and can also be rendered interact
 * Exploring improvements for better performance under poor lighting conditions and across diverse user backgrounds.
 
 ## Demo
-![Example screenshot](./outputs/output1.gif) ![Example screenshot](./outputs/output1.gif)
+![Example screenshot](./outputs/output1.gif)     ![Example screenshot](./outputs/output2.gif)
+
+Outputs under different lightning conditions with different backgrounds
+
+![Alt Text](./outputs/Screenshot 2025-04-27 233929.png)
 
 ## Reference
 
